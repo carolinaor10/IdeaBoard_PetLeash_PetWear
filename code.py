@@ -1,3 +1,7 @@
+# Carolina Ortiz Román, Edwin Montero Calvo
+# Universidad Cenfotec
+# Proyecto 2 - BISOFT
+
 # Referencia para DHT11
 # SPDX-FileCopyrightText: 2017 Limor Fried for Adafruit Industries
 # Modificado por Jefry Valverde y Gabriela Urbina
@@ -22,14 +26,14 @@ import wifi
 import sys
 import adafruit_si1145
 
-password = "rokica30"
+password = "your password here"
 
 #**********WIFI*************
 socket = socketpool.SocketPool(wifi.radio)
 https = requests.Session(socket, ssl.create_default_context())
 
 print("Connecting...")	
-wifi.radio.connect("Ortiz ", password) #redes de 2.4G
+wifi.radio.connect("SSDI", password) #redes de 2.4G
 print("Connected to Wifi!")
 print("")
 
